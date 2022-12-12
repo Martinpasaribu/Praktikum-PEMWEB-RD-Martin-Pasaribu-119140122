@@ -1,0 +1,126 @@
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+  }
+  
+  .box1 {
+    grid-column: 2 / 4;
+    grid-row: 1;
+    background-color: rgb(84, 204, 82);
+  }
+  
+  .box2 {
+    grid-column: 1;
+    grid-row: 1 / 2;
+    background-color: rgb(84, 204, 82);
+  }
+  
+  .box3 {
+    grid-row: 3;
+    grid-column: 3/4;
+    background-color: rgb(84, 204, 82);
+  }
+       
+header {
+  
+    background-color: rgb(17, 45, 255);
+   
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+    width: 240px;
+	position: absolute;
+	top: 78px;
+	left: 258px;
+ 
+}
+ .submit{
+    width: 85%;
+    margin-left: 12px;
+    text-align: center;
+    color: rgb( 255, 255, 255);
+    background-color:rgb(67, 100, 230);
+    border-color:rgb(67, 100, 230);
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+.aku{
+    margin-top :5px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    background-color:rgb(39, 199, 231);
+    font-weight: bold;
+    
+}
+
+
+.pa{
+    font-family : Arial;
+    font-size:16pt;
+
+}
+
+p {
+    font-family : Arial;
+    font-size:16pt;
+    color: rgb(0, 0, 0);
+    background-color:rgb(67, 100, 230);
+    text-align: right;
+    font-weight: bold;
+    bottom:20px;
+}
+
+p2 {
+    color: rgb(24, 7, 95);
+    text-align: center;
+    
+    width: 240px;
+	position: absolute;
+	
+	left: 190px;
+}
+
+a1 {
+    
+    font-family : Arial;
+    
+    left:14px;
+    font-size:16pt;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    color: rgb(255, 255, 255);
+    background-color:rgb(67, 100, 230);
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    top: 200px;
+}
+
+img{
+    margin-bottom: -20px;
+}
+
+tr td {
+    text-align: center;
+}
+
+  

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tugas Praktikum 4 </title>
+  </head>
+  <body>
+    <h2>Latihan;</h2>
+    <label for="hitung">Pilih Bilangan : </label>
+    <input id="hitung" type="text" name="x" />
+    <button onclick="hitung()">Hitung</button>
+    <br /><br />
+    <label>Output : </label>
+    <p id="hasil"></p>
+    <footer>&copy; Martin Pasaribu</footer>
+
+    <script type="text/javascript">
+      function hitung() {
+        let x = document.getElementById("hitung").value;
+        if (x <= 0 || x >= 21) {
+          document.getElementById("hasil").innerHTML =
+            "Pilih bilangan antara 1 sampai 20!";
+        } else if (x % 2 == 1) {
+          hasil = "";
+          nul = 0;
+          init = 1;
+          a = 0;
+          while (nul <= x * 10) {
+            hasil = hasil + nul + " ";
+            a = init + nul;
+            nul = init;
+            init = a;
+          }
+          document.getElementById("hasil").innerHTML = hasil;
+        } else {
+          b = 1;
+          hasil = "";
+          for (let i = 1; i <= x / 2; i++) {
+            b *= i;
+            if (i != x / 2) {
+              hasil = hasil + i + "x";
+            } else {
+              hasil = hasil + i + "=";
+            }
+          }
+          document.getElementById("hasil").innerHTML = hasil + b;
+        }
+      }
+    </script>
+  </body>
+</html>

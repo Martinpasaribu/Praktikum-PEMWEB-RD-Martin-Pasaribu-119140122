@@ -1,0 +1,114 @@
+.atas {
+  display: flex;
+  background: rgb(103, 174, 233);
+}
+
+img.gambar {
+  width: 100px;
+}
+
+h1.h-title {
+  color: white;
+  font-size: 30px;
+}
+
+header {
+  margin-bottom: 0px;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.menubar {
+  margin-top: 0px;
+  background: lightgray;
+}
+ul.menu {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  color: white;
+  margin-top: 0px;
+}
+li {
+  margin: 10px;
+}
+
+.tentang-saya {
+  width: fit-content;
+  background: lightseagreen;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+h2.subtittle {
+  padding: 10px;
+  color: white;
+}
+
+p.caption {
+  color: white;
+}
+
+.detail p {
+  text-align: justify;
+  margin: 20px;
+}
+
+.detail {
+  background: #e9e6e6;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.tentangsaya {
+  width: fit-content;
+  background:  rgb(103, 174, 233);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+th {
+  text-align: center;
+}
+
+thead {
+  background: lightgray;
+}
+
+table.table-pengalaman.table.table-striped {
+  margin-top: 20px;
+}
+
+.pertanyaan {
+  background: lightgray;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.form {
+  padding: 20px;
+}
+
+input.box {
+  border-radius: 10px;
+  width: 75%;
+}
+
+.isi {
+  font-size: 17px;
+}
+footer {
+  background: rgb(103, 174, 233);
+  padding: 10px;
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
